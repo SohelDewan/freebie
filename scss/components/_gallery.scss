@@ -1,0 +1,29 @@
+#gallery {
+    padding: 100px 0;
+
+    .gal_text {
+        h6 {
+            font-size: 19px;
+            line-height: 22px;
+            text-transform: uppercase;
+            color: #FD5B2F;
+            margin-bottom: 25px;
+        }
+
+        h3 {
+            font-size: 40px;
+            line-height: 61px;
+            color: #000000;
+            margin-bottom: 10px;
+            span{
+                display: block;
+                margin-bottom: 45px;
+            }
+        }
+    }
+    .gall_img{
+        img{
+            padding: 10px;
+        }
+    }
+}

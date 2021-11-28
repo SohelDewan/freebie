@@ -1,0 +1,45 @@
+#vision {
+    padding: 120px 0;
+
+    h5 {
+        font-size: 19px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FD5B2F;
+        margin-top: 80px;
+    }
+
+    h2 {
+        font-size: 50px;
+        line-height: 60px;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+        margin-bottom: 25px;
+    }
+
+    h6 {
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        margin-bottom: 9px;
+    }
+
+    a {
+        align-items: center;
+        padding: 9.40268px 36.566px;
+        background: #FD5B2F;
+        border-radius: 5.22371px;
+        color: #fff;
+        margin-top: 30px;
+        &:hover {
+            opacity: .8;
+        }
+    }
+}

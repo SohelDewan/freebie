@@ -1,0 +1,123 @@
+#service {
+    padding: 110px 0 30px;
+
+    .service_img {
+        position: relative;
+    }
+
+    .overly {
+        position: absolute;
+        right: -38px;
+        bottom: 0px;
+        z-index: 99;
+    }
+
+    .service_text {
+        margin-left: 130px;
+        position: relative;
+
+        .over_img {
+            position: absolute;
+            right: -110px;
+            top: -120px;
+        }
+
+        h6 {
+            font-size: 18.8054px;
+            line-height: 22px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FD5B2F;
+            margin-top: 150px;
+
+        }
+
+        h3 {
+            font-size: 50px;
+            line-height: 71px;
+            color: #000000;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 15.6711px;
+            line-height: 38px;
+            color: #000000;
+        }
+
+        .bottom_cont {
+            margin-top: 50px;
+
+            >a {
+                font-size: 16.7159px;
+                line-height: 20px;
+                text-align: center;
+                color: #FFFFFF;
+                background: #FD5B2F;
+                border-radius: 5.22371px;
+                align-items: center;
+                padding: 15px 30px;
+
+                &:hover {
+                    opacity: .8;
+                }
+            }
+
+            .video_img {
+                margin-top: 5px;
+                margin-left: 35px;
+
+                &:hover {
+                    opacity: .8;
+                }
+            }
+
+            h5 {
+                margin-top: 10px;
+                margin-left: 25px;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FD5B2F;
+            }
+        }
+    }
+
+    .img_slider {
+        .slick-dots {
+            display: flex;
+            justify-content: center;
+
+            li {
+                button {
+                    font-size: 0;
+                    width: 9.4px;
+                    height: 9.4px;
+                    background: #E9E9E9;
+                    border-radius: 1.04474px;
+                    margin: 0 3px;
+                    border: 0;
+                    transition: all linear .3s;
+                    -webkit-transition: all linear .3s;
+                    -moz-transition: all linear .3s;
+                    -ms-transition: all linear .3s;
+                    -o-transition: all linear .3s;
+                }
+
+                &.slick-active {
+                    button {
+                        width: 9.4px;
+                        height: 9.4px;
+                        background: #FD5B2F;
+                        border-radius: 1.04474px;
+
+                    }
+                }
+            }
+        }
+
+        .slick-slide {
+            padding: 0 1px !important;
+        }
+
+    }
+}

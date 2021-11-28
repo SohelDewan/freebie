@@ -1,0 +1,32 @@
+#benefits{
+    padding: 35px 0;
+    .bene_text{
+
+        h5 {
+            font-size: 19px;
+            line-height: 22px;
+            text-transform: uppercase;
+            color: #FD5B2F;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            font-size: 50px;
+            line-height: 60px;
+            color: #000000;
+            margin-bottom: 50px;
+            span{
+                display: block;
+            }
+        }
+    }
+    .bene_icon_text{
+        p{
+            font-size: 12px;
+          margin-top: 15px;
+        }
+        img{
+            margin-bottom: 30px;
+        }
+    }
+}

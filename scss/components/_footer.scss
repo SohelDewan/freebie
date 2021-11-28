@@ -1,0 +1,56 @@
+footer {
+    padding: 50px 0;
+
+    .logo_img {
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 16.7159px;
+        line-height: 31px;
+        padding-right: 61px;
+        margin-bottom: 20px;
+    }
+
+    h5 {
+        font-size: 20.8948px;
+        line-height: 24px;
+        margin-bottom: 20px;
+        color: #FD5B2F;
+    }
+
+    h6 {
+        font-size: 16.7159px;
+        line-height: 20px;
+        padding: 10px 0;
+
+        &:last-child {
+            margin-bottom: 20px;
+        }
+    }
+
+    .soci_icon {
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+
+        img {
+            padding: 0 7px;
+
+            // box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.01);
+            // border-radius: 50%;
+            // overflow: hidden;
+            // -webkit-border-radius: 50%;
+            // -moz-border-radius: 50%;
+            // -ms-border-radius: 50%;
+            // -o-border-radius: 50%;
+            // overflow: hidden;
+            &:hover {
+                opacity: .7;
+                scale: 1.2;
+            }
+        }
+    }
+}

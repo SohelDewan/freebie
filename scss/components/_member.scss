@@ -1,0 +1,50 @@
+#member {
+    padding: 100px 0;
+
+    .mem_text {
+        margin-top: 100px;
+        h6 {
+            font-size: 19px;
+            line-height: 22px;
+            text-transform: uppercase;
+            color: #FD5B2F;
+            margin-bottom: 25px;
+        }
+
+        h3 {
+            font-size: 40px;
+            line-height: 61px;
+            color: #000000;
+            margin-bottom: 10px;
+
+            span {
+                display: block;
+                margin-bottom: 45px;
+            }
+        }
+        p {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 38px;
+            margin-bottom: 30px;
+        }
+    }
+    .login_btn{
+        a {
+            align-items: center;
+            margin: 15px;
+            padding: 9.40268px 36.566px;
+            background: #FD5B2F;
+            border-radius: 5.22371px;
+            color: #fff;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            &:hover {
+                color: #FD5B2F;
+                background: #fff;
+                border: 1.04474px solid #FD5B2F;
+            }
+        }
+    }
+
+}

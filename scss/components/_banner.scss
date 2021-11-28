@@ -1,0 +1,176 @@
+#banner {
+    padding-top: 120px;
+    padding-bottom: 50px;
+
+    .bannner_left {
+        .ban_img {
+            margin-top: 170px;
+        }
+
+    }
+
+    .ban_text {
+        h2 {
+            font-family: sans-serif;
+            font-weight: 700;
+            font-size: 46px;
+            color: #000;
+            text-align: left;
+            // span{
+            //     display: block;
+            // }
+        }
+    }
+
+    .cl4 {
+        position: relative;
+
+        .gp82 {
+            position: absolute;
+            width: 677.29px;
+            height: 38.89px;
+            margin-top: 28px;
+            z-index: 9;
+            display: flex;
+
+            img {
+                margin-left: -17px;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+
+            .last_img {
+                position: relative;
+            }
+
+            p {
+                color: #fff;
+                position: absolute;
+                left: 150px;
+                top: 6px;
+                font-size: 13px;
+            }
+            h6 {
+                color: #000;
+                font-size: 13px;
+                font-weight: 500;
+                letter-spacing: -0.7px;
+                position: absolute;
+                left: 180px;
+                top: 8px;
+            }
+        }
+    }
+
+    .gp3 {
+        z-index: 9;
+        position: absolute;
+        position: relative;
+        display: flex;
+        margin-top: 100px;
+        width: 677.29px;
+        height: 102.38px;
+        border-radius: 5.22371px;
+        background: rgba(243, 243, 243, 0.6);
+
+        .city {
+            color: #989898;
+            position: absolute;
+            top: 40px;
+            left: 50px;
+        }
+
+        .location {
+            color: #989898;
+            position: absolute;
+            top: 40px;
+            left: 45%;
+
+        }
+
+        .lock {
+            color: #989898;
+            position: absolute;
+            top: 40px;
+            left: 30px;
+        }
+
+        .visit {
+
+            background: #FD5B2F;
+            color: #fff;
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 9.40268px 26.566px;
+            border-radius: 5.22371px;
+            -webkit-border-radius: 5.22371px;
+            -moz-border-radius: 5.22371px;
+            -ms-border-radius: 5.22371px;
+            -o-border-radius: 5.22371px;
+            &:hover {
+                color: #FD5B2F;
+                background: #fff;
+                border: 1.04474px solid #FD5B2F;
+            }
+        }
+
+    }
+
+    .banner_right {
+        .rect_img {
+            position: relative;
+
+            // height: 710px;
+            // width: 497px;
+            .elip1 {
+                position: absolute;
+                right: -183px;
+                top: -46px;
+            }
+
+            .elip2 {
+                position: absolute;
+                right: -228px;
+                top: 240px;
+            }
+
+            .elip3 {
+                position: absolute;
+                right: -270px;
+                top: 124px;
+            }
+
+            .co_text {
+                position: absolute;
+                bottom: 130px;
+                right: -150px;
+                z-index: 1;
+                transform: rotate(-90deg);
+                -webkit-transform: rotate(-90deg);
+                -moz-transform: rotate(-90deg);
+                -ms-transform: rotate(-90deg);
+                -o-transform: rotate(-90deg);
+
+                h4 {
+                    color: #000000;
+                    opacity: 0.1;
+                    font-size: 47px;
+                }
+            }
+        }
+    }
+    .company_logo{
+        text-align: center;
+        margin-top: 50px;
+        img{
+            padding: 5px 7px;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+nav {
+    padding-top: 37px;
+    .left_nav {
+        ul {
+            li {
+                padding: 5px 10px;
+                a {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16.7159px;
+                    line-height: 21px;
+                    /* identical to box height */
+                    text-transform: uppercase;
+                    /* text color */
+                    color: #686C75;
+                }
+            }
+        }
+    }
+    .bar{
+        ul{
+            display: flex;
+            margin-top: -20px;
+            li{
+                padding: 0 5px;
+            }
+            a{
+                text-transform: uppercase;
+                color: #686C75;
+            }
+        }
+    }
+}

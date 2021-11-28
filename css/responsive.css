@@ -1,0 +1,627 @@
+@media (min-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    nav .left_nav{
+        display: none;
+    }
+    nav .bar ul{
+        text-align: center;
+        justify-content: center;
+    }
+    #banner {
+        padding:0;
+    }
+
+    #service .overly {
+        display: none;
+    }
+    #service .service_text {
+     margin-left: 0;
+    }
+    #service .service_text .over_img {
+        right: -20px;
+        top: 0px;
+    }
+    #vision {
+        padding: 100px 0 0;
+    }
+    #vision {
+        padding: 0px 0 50px;
+    }
+    #solutions a{
+        margin-bottom: 30px;
+    }
+    #benefits .bene_icon_text p {
+        margin-bottom: 15px;
+    }
+    #gallery {
+        padding: 50px 0;
+    }
+    #member {
+        padding: 0px 0 50px;
+    }
+    .service_img img{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* Menu part start */
+.left_nav{
+    display: none;
+}
+
+    /* Banner part start */
+    #banner {
+        padding: 0;
+    }
+    #banner {
+        margin-top:  0;
+    }
+    #banner .bannner_left .ban_img {
+        margin-top: 90px;
+    }
+    #banner .cl4 {
+        margin-bottom: -360px;
+    }
+
+    #banner .ban_text h2 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    #banner .gp3 {
+        top: 320px;
+    }
+    #banner .gp3 {
+        margin-top: 400px;
+        width: 440px;
+        height: 95px;
+    }
+
+    #banner .gp3 .visit {
+        top: 37px;
+        right: 5px;
+        align-items: center;
+        padding: 5px 5px;
+
+    }
+
+    #banner .gp3 .location {
+        left: 35%;
+    }
+
+    #banner .gp3 .visit a span {
+        display: block;
+    }
+
+    #banner .gp3 {
+        top: 350px;
+    }
+
+    #banner .banner_right .rect_img .elip1 {
+     display: none;
+    }
+
+    #banner .banner_right .rect_img .elip2 {
+        display: none;
+    }
+
+    #banner .banner_right .rect_img .elip3 {
+        display: none;
+    }
+
+    #banner .cl4 .gp82 {
+        top: 1035px;
+    }
+
+    #banner .company_logo {
+        margin-top: 100px;
+    }
+
+    #banner .cl4 .gp82 h6 {
+        top: 42px;
+        margin-left: -145px;
+    }
+
+    #banner .cl4 .gp82 p {
+        left: 181px;
+    }
+
+    #banner .bnr_row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #banner .banner_right img{
+        width: 100%;
+        max-width: 100%;
+    }
+    #banner .banner_right .co_text{
+        display: none;
+    }
+
+    /* Banner part End */
+    /* Service part start */
+    #service {
+        padding: 40px 0 5px;
+    }
+    #service .service_text .bottom_cont h5 {
+        margin-top: 3px;
+        margin-left: 14px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+ 
+    #service .serv_left .img_slider .img_part img {
+        display: none;
+    }
+
+    #service .serv_left .img_slider .overly img {
+        display: none;
+    }
+
+    #service .serv_left .img_slider img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #service .img_slider .slick-dots li button {
+        display: none;
+    }
+
+    #service .service_text {
+        margin-left: 0px;
+    }
+
+    #service .service_text h3 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    #service .service_text .over_img {
+        right: -10px;
+        top: -55px;
+    }
+
+    #service .service_text p {
+        font-size: 15px;
+        line-height: 30px;
+        margin-top: 20px;
+        text-align: justify;
+    }
+
+    #service .service_text .bottom_cont>a {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 6px 20px;
+    }
+
+    /* Service part end */
+    #vision {
+        padding: 30px 0;
+    }
+    #vision a {
+        margin-bottom: 50px;
+    }
+    #vision .img_right img{
+        width: 100%;
+        max-width: 100%;
+    }
+    #solutions {
+        padding: 0 0 70px;
+    }
+    #gallery {
+        padding: 20px 0;
+    }
+    #member {
+        padding: 25px 0;
+    }
+    #member .login_btn a {
+        margin-bottom: 60px;
+    }
+    #solutions a {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    /* Menu part start */
+    .left_nav {
+        display: none;
+    }
+
+    .right_nav {
+        display: none;
+    }
+
+    .bar {
+        height: 80%;
+        width: 320px;
+        background-color: #FD5B2F;
+        z-index: 999;
+        padding: 20px;
+        box-sizing: border-box;
+        position: fixed;
+        left: -320px;
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+    }
+
+    .bar ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bar ul li{
+        border-bottom: 1px solid #fff;
+        padding: 0;
+    }
+    .bar ul li a {
+        font-size: 20px;
+        font-weight: normal;
+        text-transform: uppercase;
+        color: #ffff;
+        margin: 5px 0;
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+        z-index: 999;
+    }
+
+    .bar ul li a:hover {
+        color: #000;
+        padding: 0 10px;
+    }
+
+
+    .btn {
+        height: 50px;
+        width: 50px;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+        background: #FD5B2F;
+        position: absolute;
+        right: -80px;
+        top: 0;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+        margin-top: -40px;
+    }
+
+
+    .ber_ho {
+        left: 0;
+    }
+
+
+    .line1 {
+        height: 2px;
+        width: 30px;
+        background: #fff;
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+    }
+
+    .line2 {
+        height: 2px;
+        width: 30px;
+        background: #fff;
+        margin: 10px 0;
+        transition: .4s;
+    }
+
+    .line3 {
+        height: 2px;
+        width: 30px;
+        background: #fff;
+        transition: .4s;
+    }
+
+
+    .ber_ho .line2 {
+        opacity: 0;
+    }
+
+    .ber_ho .line1 {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        background: #fff;
+    }
+
+    .ber_ho .line3 {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        margin-top: -23px;
+        background: #fff;
+    }
+
+    .ber_ho .btn {
+        left: 0px;
+    }
+
+    /* Menu part end */
+
+
+    /* Banner part start */
+    #banner {
+        padding: 0;
+    }
+
+    #banner .cl4 {
+        margin-bottom: -120px;
+    }
+
+    #banner .ban_text h2 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    #banner .gp3 {
+        display: flex;
+        margin-top: 100px;
+        width: 300px;
+        height: 92px;
+
+    }
+
+    #banner .gp3 .visit {
+        top: 37px;
+        right: 5px;
+        align-items: center;
+        padding: 5px 5px;
+
+    }
+
+    #banner .gp3 .location {
+        left: 35%;
+    }
+
+    #banner .gp3 .visit a span {
+        display: block;
+    }
+
+    #banner .gp3 {
+        top: 350px;
+    }
+
+    #banner .banner_right .rect_img .elip1 {
+     display: none;
+    }
+
+    #banner .banner_right .rect_img .elip2 {
+        display: none;
+    }
+
+    #banner .banner_right .rect_img .elip3 {
+        display: none;
+    }
+
+    #banner .cl4 .gp82 {
+        top: 890px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    #banner .company_logo {
+        margin-top: 70px;
+    }
+
+    #banner .cl4 .gp82 h6 {
+        top: 42px;
+        margin-left: -145px;
+    }
+
+    #banner .cl4 .gp82 p {
+        left: 181px;
+    }
+
+    #banner .bnr_row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #banner .banner_right img{
+        width: 100%;
+        max-width: 100%;
+    }
+    #banner .banner_right .co_text{
+        display: none;
+    }
+
+    /* Banner part End */
+
+    /* Service part start */
+    #service {
+        padding: 40px 0 5px;
+    }
+    #service .service_text .bottom_cont h5 {
+        margin-top: 3px;
+        margin-left: 14px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+ 
+    #service .serv_left .img_slider .img_part img {
+        display: none;
+    }
+
+    #service .serv_left .img_slider .overly img {
+        display: none;
+    }
+
+    #service .serv_left .img_slider img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #service .img_slider .slick-dots li button {
+        display: none;
+    }
+
+    #service .service_text {
+        margin-left: 0px;
+    }
+
+    #service .service_text h3 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    #service .service_text .over_img {
+        right: -10px;
+        top: -55px;
+    }
+
+    #service .service_text p {
+        font-size: 15px;
+        line-height: 30px;
+        margin-top: 20px;
+        text-align: justify;
+    }
+
+    #service .service_text .bottom_cont>a {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 6px 20px;
+    }
+
+    /* Service part end */
+
+    /* Vision part start */
+    #vision {
+        padding: 10px 0;
+    }
+
+    #vision h2 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    #vision p {
+        font-size: 15px;
+    }
+
+    #vision a {
+        padding: 7.403px 20.566px;
+        border-radius: 5.22371px;
+        margin-top: 25px;
+    }
+
+    #vision .img_right img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Vision part end */
+
+    /* Solution part Start */
+    #solutions {
+        padding: 0 0 40px;
+    }
+
+    #solutions h2 {
+        font-size: 40px;
+        line-height: 46px;
+        margin-bottom: 25px;
+    }
+
+    #solutions a {
+        padding: 7.403px 18.566px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .slick-slide img {
+        width: 100%;
+    }
+
+    #benefits .bene_text h2 {
+        font-size: 33px;
+        line-height: 37px;
+    }
+
+    #benefits .bene_icon_text p {
+        margin-bottom: 20px;
+    }
+
+    /* Solution part end */
+
+    /* Gallery part Start */
+    #gallery {
+        padding: 30px 0;
+    }
+
+    #gallery img {
+        width: 100%;
+    }
+
+    #gallery .gal_text h3 {
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    #gallery .gall_img img {
+        width: 100%;
+    }
+
+    /* Gallery part end */
+
+    /* Menu part end */
+    #member {
+        padding: 0px 0;
+    }
+
+    #member .mem_text h3 {
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    #member .mem_text {
+        margin-top: 60px;
+    }
+
+    #member .login_btn a {
+        margin: 10px 5px;
+        padding: 6.403px 19.566px;
+        background: #FD5B2F;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #member img {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
